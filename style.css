@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+a:visited {
+    
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
