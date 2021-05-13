@@ -1,6 +1,15 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+/*Partie header */
+header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+/* Partie footer */
 footer {
     display: flex;
     background-color: #F2F2F2;
@@ -14,15 +23,14 @@ a:visited {
     color: black;
 }
 
-a {
+a,li{
     text-decoration: none;
-}
-
-li {
     list-style-type: none;
 }
 
 #footer {
+    bottom: 0;
+    border-top: 0;
     display: flex;
     justify-content: space-around;
 }
