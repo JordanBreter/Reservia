@@ -3,34 +3,47 @@ body {
 }
 /*Partie header */
 header{
-    display: flex;
-    justify-content: space-around;
-    
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
 }
+img{
+    padding-left: 40px;
+}
+nav li{
+    margin-right: 100px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #0065fc;
+}
+
 
 
 /* Partie footer */
 footer {
     display: flex;
     background-color: #F2F2F2;
-    justify-content: space-around;
-    width: 100%;
-    
+    align-items: flex-start;
 }
 
-a:visited {
+ footer a:visited {
     
     color: black;
 }
 
-a,li{
+ footer a,li{
     text-decoration: none;
     list-style-type: none;
 }
-
-#footer {
-    bottom: 0;
-    border-top: 0;
-    display: flex;
-    justify-content: space-around;
+footer ul{
+    padding-left: 40px;
+    padding-right: 200px;
+    font-size: 12px;
 }
