@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 /*Partie header */
 header{
@@ -23,9 +24,36 @@ nav a{
     text-decoration: none;
     color: #0065fc;
 }
+/* Partie section */
+section{
+    padding-left: 40px;
+}
 
-
-
+.icon{
+    display: inline-flex;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 25% 0% 0% 25%;
+    margin-right: 0px;
+}
+input{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    height: 28px;
+    padding: 0px 0px 2px 5px;
+    border-radius: 1px;
+    border: 1px #F2F2F2 solid;
+    margin-bottom: 20px;
+}
+.rechercher{
+    display: inline-flex;
+    font-weight: bold;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0% 12% 12% 0%;
+    padding: 9px;
+    margin-left: 0px;
+}
 /* Partie footer */
 footer {
     display: flex;
@@ -45,5 +73,4 @@ footer {
 footer ul{
     padding-left: 40px;
     padding-right: 200px;
-    font-size: 12px;
 }
